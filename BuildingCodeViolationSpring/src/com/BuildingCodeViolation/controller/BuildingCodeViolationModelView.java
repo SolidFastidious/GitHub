@@ -11,6 +11,12 @@ import org.springframework.web.servlet.ModelAndView;
 @Controller
 public class BuildingCodeViolationModelView {
 	
+	@RequestMapping("/index")
+	public ModelAndView indexMVC() {
+		
+		return new ModelAndView("index", "message","");
+	}
+	
 	@RequestMapping("/welcome")
 	public ModelAndView helloWorld() {
  
@@ -24,5 +30,12 @@ public class BuildingCodeViolationModelView {
 		
 		return new ModelAndView("UploadBuildingCode", "message","");
 	}
+	
+	@RequestMapping("/downloadList")
+	public ModelAndView dowmloadListView() {
+		
+		return new ModelAndView("downloadList", "message","");
+	}
+
 
 }

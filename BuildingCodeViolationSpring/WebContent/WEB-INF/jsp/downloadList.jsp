@@ -12,14 +12,14 @@
 	rel="stylesheet">
 <script src="<c:url value="/resources/js/bootstrap.min.js" />"></script>
 <script src="<c:url value="/resources/js/jquery-3.2.1.min.js" />"></script>
+
 </head>
 <body style="height: 1500px">
 
 	<nav class="navbar navbar-inverse navbar-fixed-top">
 	<div class="container-fluid">
 		<div class="navbar-header">
-			<a class="navbar-brand" href="#">Building Code Violation Data
-				Center</a>
+			<a class="navbar-brand" href="#">Building Code Violation Data Center</a>
 		</div>
 		<ul class="nav navbar-nav">
 			<li class="active"><a href="index.jsp">Home</a></li>
@@ -29,21 +29,19 @@
 		</ul>
 	</div>
 	</nav>
-
-
+	<br>
+	
+	
 	<div class="container-fluid" style="margin-top: 50px">
 		<div class="jumbotron">
-			<h2>Upload Data Center</h2>
-			<p>You can upload a csv file or an excel file to upload to the
-				database</p>
+			<h2>Download Building List</h2>
+			<p>Download a specific list in excel or in pdf format.</p>
 
 			<button type="button" class="btn btn-primary">
-				Upload CSV or Excel file <i class="glyphicon glyphicon-upload"></i>
+				Download Excel file <i class="glyphicon glyphicon-download-alt"></i>
 			</button>
 		</div>
 
 	</div>
-
-
 </body>
 </html>
