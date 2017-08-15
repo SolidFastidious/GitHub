@@ -25,7 +25,7 @@
 			<li class="active"><a href="index.jsp">Home</a></li>
 			<li><a href="welcome.jsp">Page 1</a></li>
 			<li><a href="UploadBuildingCode.jsp">Upload Building Code Data</a></li>
-			<li><a href="#">Download List</a></li>
+			<li><a href="downloadList.jsp">Download List</a></li>
 		</ul>
 	</div>
 	</nav>
