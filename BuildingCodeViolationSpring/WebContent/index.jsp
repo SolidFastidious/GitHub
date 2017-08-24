@@ -19,18 +19,20 @@
 	<nav class="navbar navbar-inverse navbar-fixed-top">
 	<div class="container-fluid">
 		<div class="navbar-header">
-			<a class="navbar-brand" href="#">Building Code Violation Data Center</a>
+			<a class="navbar-brand" href="#">Building Code Violation Data
+				Center</a>
 		</div>
 		<ul class="nav navbar-nav">
 			<li class="active"><a href="index.jsp">Home</a></li>
 			<li><a href="welcome.jsp">Page 1</a></li>
-			<li><a href="UploadBuildingCode.jsp">Upload Building Code Data</a></li>
+			<li><a href="UploadBuildingCode.jsp">Upload Building Code
+					Data</a></li>
 			<li><a href="downloadList.jsp">Download List</a></li>
 		</ul>
 	</div>
 	</nav>
 	<br>
-<!-- 	<div class="container" style="margin-top: 50px">
+	<!-- 	<div class="container" style="margin-top: 50px">
 		<h2>
 			Hey You..!! This is your 1st Spring MCV Tutorial..<br> <br>
 		</h2>
@@ -80,6 +82,66 @@
 				</tr>
 			</tbody>
 		</table>
-	</div>
+
+  <button type="button" class="btn btn-info btn-lg" data-toggle="modal" data-target="#NewBuildingListEntryModel">Add
+			a new entry</button>
+
+		<div class="modal fade" id="NewBuildingListEntryModel" role="dialog">
+			<div class="modal-dialog">
+				<div class="modal-content">
+					<div class="modal-header">
+						<button type="button" class="close" data-dismiss="modal">&times;</button>
+						<h4 class="modal-title">New Building Violation Entry form</h4>
+					</div>
+					<form class="form-horizontal">
+						<div class="form-group">
+							<label class="control-label col-sm-2" for="violationIDEntry">Violation
+								ID:</label>
+							<div class="col-sm-10">
+								<input type="text" class="form-control" id="violationIDEntry"
+									placeholder="Enter Violation ID">
+							</div>
+							<label class="control-label col-sm-2" for="inspectionIDEntry">Inspection
+								ID:</label>
+							<div class="col-sm-10">
+								<input type="text" class="form-control" id="inspectionIDEntry"
+									placeholder="Enter Inspection ID">
+							</div>
+							<label class="control-label col-sm-2"
+								for="violationCategoryEntry">Violation Category:</label>
+							<div class="col-sm-10">
+								<input type="text" class="form-control"
+									id="violationCategoryEntry"
+									placeholder="Enter Violation Category">
+							</div>
+							<label class="control-label col-sm-2" for="violationDateEntry">Violation
+								Date:</label>
+							<div class="col-sm-10">
+								<input type="datetime-local" class="form-control"
+									id="violationDateEntry"
+									placeholder="Enter Violation Date YYYY-MM-DD HH:MM">
+							</div>
+							<label class="control-label col-sm-2"
+								for="violationDateClosedEntry">Violation Date Closed:</label>
+							<div class="col-sm-10">
+								<input type="datetime-local" class="form-control"
+									id="violationDateClosedEntry"
+									placeholder="Enter Violation Date Close YYYY-MM-DD HH:MM">
+							</div>
+							<label class="control-label col-sm-2" for="violationTypeEntry">Violation
+								Type:</label>
+							<div class="col-sm-10">
+								<input type="text" class="form-control" id="violationTypeEntry"
+									placeholder="Enter Violation Type">
+							</div>
+						</div>
+					</form>
+					<div class="modal-footer">
+						<button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+
+					</div>
+				</div>
+			</div>
+		</div>
 </body>
 </html>

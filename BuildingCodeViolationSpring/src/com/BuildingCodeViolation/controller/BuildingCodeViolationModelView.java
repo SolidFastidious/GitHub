@@ -26,7 +26,7 @@ public class BuildingCodeViolationModelView {
 	}
 	
 	@RequestMapping("/UploadBuildingCode")
-	public ModelAndView uoloadBuildingCodeMVC() {
+	public ModelAndView uploadBuildingCodeMVC() {
 		
 		return new ModelAndView("UploadBuildingCode", "message","");
 	}
