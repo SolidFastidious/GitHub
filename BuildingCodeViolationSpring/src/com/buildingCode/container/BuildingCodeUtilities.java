@@ -3,7 +3,7 @@ package com.buildingCode.container;
 import java.util.Collections;
 import java.util.Comparator;
 
-public class BuildingCodeUtilities {
+public class BuildingCodeUtilities  {
 
 	final String apo = "Air Pollutants and Odors";
 	final String aPests = "Animals and Pests";

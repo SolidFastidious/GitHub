@@ -20,6 +20,22 @@
 		<property name="suffix" value=".jsp" />
 	</bean>
 
+
+
+	<!-- Database Configurations -->
+	<bean id="dataSource"
+		class="org.springframework.jdbc.datasource.DriverManagerDataSource">
+		<property name="driverClassName" value="oracle.jdbc.driver.OracleDriver" />
+		<property name="url" value="dbc:mysql://localhost:3306/building_code" />
+		<property name="username" value="root" />
+		<property name="password" value="password" />
+	</bean>
+	
+		<bean id="employeeDAOImpl" class="com.javainterviewpoint.EmployeeDAOImpl">
+		<property name="jdbcTemplate" ref="jdbcTemplate" />
+	</bean>
+	
+	
 	<mvc:resources mapping="/resources/**" location="/resources/" />
 	<mvc:annotation-driven />
 
